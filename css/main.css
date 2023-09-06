@@ -127,3 +127,13 @@ ul li span {
 ul li span:hover {
   background: #edeef0;
 }
+
+/* mobile responsive */
+@media (max-width: 769px) {
+  .container {
+    background: rgb(255, 255, 255);
+  }
+  .todo-app {
+    box-shadow: none;
+  }
+}
